@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>News App Demo</title>
-  <link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
-  <h1>News App Demo</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>App Demo</title>
+    <link rel="stylesheet" href="/assets/main.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">Demo</a>
+      <a
+        href="https://github.com/Philip-Walsh/go-app"
+        class="button github-button"
+        >View on GitHub</a
+      >
+    </header>
+    <main>
+      <section>
+        <form action="/search" method="GET">
+          <input
+            autofocus
+            class="search-input"
+            value=""
+            placeholder="Enter a news topic"
+            type="search"
+            name="q"
+          />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
