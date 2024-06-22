@@ -39,3 +39,4 @@ air
 This will start the development server and monitor for changes in the codebase.
 
 Now you can access the application in your web browser and start searching for news articles based on your query.
+
